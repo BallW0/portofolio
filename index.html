@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Afif Indradzat Nurhakiki - Computer Engineering Graduate. Spesialisasi IoT, Embedded Systems, Web Development, dan Computer Vision.">
+    <meta name="keywords" content="portfolio, computer engineering, IoT, embedded systems, web development, face recognition">
+    <meta name="author" content="Afif Indradzat Nurhakiki">
+    <title>Afif Indradzat | Computer Engineering Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Afif<span class="logo-dot">.</span>dev<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#tentang" class="nav-link">Tentang</a></li>
+                <li><a href="#keahlian" class="nav-link">Keahlian</a></li>
+                <li><a href="#proyek" class="nav-link">Proyek</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
+        <div class="hero-content">
+            <p class="hero-greeting animate-fade-up">Halo, perkenalkan</p>
+            <h1 class="hero-title animate-fade-up delay-1">
+                Saya <span class="gradient-text">Afif Indradzat Nurhakiki</span>
+            </h1>
+            <p class="hero-subtitle animate-fade-up delay-2">Computer Engineering Graduate</p>
+            <p class="hero-description animate-fade-up delay-3">
+                Memiliki pemahaman sangat baik tentang systems IoT, embedded systems dan software development.
+            </p>
+            <div class="hero-buttons animate-fade-up delay-4">
+                <a href="#proyek" class="btn btn-primary">
+                    <span>Lihat Proyek Saya</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                </a>
+                <a href="#kontak" class="btn btn-outline">
+                    <span>Hubungi Saya</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                </a>
+            </div>
+            <div class="hero-stats animate-fade-up delay-5">
+                <div class="stat-item">
+                    <span class="stat-number">3+</span>
+                    <span class="stat-label">Proyek</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Teknologi</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">IoT & Software <br>development</span>
+                    <span class="stat-label">Spesialisasi</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator animate-fade-up delay-5">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TENTANG SECTION ===== -->
+    <section class="section" id="tentang">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">01 — Tentang Saya</span>
+                <h2 class="section-title">Mengenal Lebih Dekat</h2>
+            </div>
+            <!-- <div class="about-grid">
+                <div class="about-image reveal">
+                    <div class="about-image-frame">
+                        <div class="about-avatar">
+                            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                            <span class="avatar-label">Foto Anda</span>
+                        </div>
+                        <div class="about-image-decoration"></div>
+                    </div>
+                </div> -->
+                <div class="about-content reveal">
+                    <p class="about-text">
+                        saya adalah lulusan teknik komputer yang memiliki pemahaman baik terkait 
+                        dengan <strong>software development</strong> <strong>backend</strong> maupun 
+                        <strong>frontend</strong> serta <strong>sistem berbasis IoT</strong>. terbiasa dan
+                        berpengalaman menyelesaikan project <strong>sistem IoT</strong> dan pembuatan 
+                        <strong>software</strong>, serta terbiasa mengelola basis data <strong>PostgreSQL</strong> 
+                        dan <strong>MySQL</strong>. Memiliki motivasi tinggi untuk terus belajar, 
+                        beradaptasi dengan teknologi baru dan siap berkontribusi secara profesional dalam tim.
+                    </p>
+                    <p class="about-text">
+                        Selama perkuliahan, saya telah mengembangkan berbagai proyek yang mengintegrasikan 
+                        perangkat keras dan perangkat lunak — mulai dari mikrokontroler ESP32 hingga 
+                        sistem face recognition menggunakan Python OpenCV, serta web dashboard real-time 
+                        dengan Node.js dan Firebase.
+                    </p>
+                    <p class="about-text">
+                        Saya percaya bahwa teknologi terbaik adalah yang mampu memberikan solusi nyata. 
+                        Saya selalu berusaha membangun sistem yang terintegrasi, efisien, dan mudah digunakan.
+                    </p>
+                    <div class="about-info-grid">
+                        <div class="about-info-item">
+                            <span class="info-icon">🎓</span>
+                            <div>
+                                <span class="info-label">Pendidikan</span>
+                                <span class="info-value">Teknik Komputer</span>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <span class="info-label">Lokasi</span>
+                                <span class="info-value">Indonesia, Kota Bandung</span>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <span class="info-icon">💼</span>
+                            <div>
+                                <span class="info-label">Status</span>
+                                <span class="info-value"><strong style="color: var(--accent-primary);">
+                                    Open to Work</strong></span>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <span class="info-icon">🚀</span>
+                            <div>
+                                <span class="info-label">Minat</span>
+                                <span class="info-value">IoT & software development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== KEAHLIAN SECTION ===== -->
+    <section class="section section-alt" id="keahlian">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">02 — Keahlian</span>
+                <h2 class="section-title">Tech Stack & Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Embedded Systems -->
+                <div class="skill-card reveal">
+                    <div class="skill-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg>
+                    </div>
+                    <h3 class="skill-card-title">Embedded Systems & IoT</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ESP32</span>
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag">UART</span>
+                        <span class="skill-tag">SPI</span>
+                        <span class="skill-tag">MQTT</span>
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">Sensor Integration</span>
+                    </div>
+                </div>
+                <!-- Programming -->
+                <div class="skill-card reveal">
+                    <div class="skill-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h3 class="skill-card-title">Programming</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <!-- Web Development -->
+                <div class="skill-card reveal">
+                    <div class="skill-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
+                    <h3 class="skill-card-title">Basis Data</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">SSE</span>
+                    </div>
+                </div>
+                <!-- Computer Vision -->
+                <!-- <div class="skill-card reveal">
+                    <div class="skill-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </div>
+                    <h3 class="skill-card-title">Computer Vision</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">Face Recognition</span>
+                        <span class="skill-tag">Image Processing</span>
+                        <span class="skill-tag">dlib</span>
+                        <span class="skill-tag">Python</span>   
+                    </div>
+                </div> -->
+                <!-- Tools -->
+                <div class="skill-card reveal">
+                    <div class="skill-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3 class="skill-card-title">Tools & Platform</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Arduino IDE</span>
+                        <span class="skill-tag">VSCode</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Antigravity</span>
+                        <span class="skill-tag">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROYEK SECTION ===== -->
+    <section class="section" id="proyek">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">03 — Proyek</span>
+                <h2 class="section-title">Project Showcase</h2>
+                <p class="section-subtitle">Beberapa proyek yang telah saya kerjakan, mulai dari embedded systems hingga web applications.</p>
+            </div>
+
+            <!-- Project 1: Smart Door Lock -->
+            <div class="project-card project-featured reveal">
+                <div class="project-image">
+                    <img src="images/smart_door_lock.png" alt="Smart Door Lock System" loading="lazy">
+                    <div class="project-image-overlay">
+                        <span class="project-badge">⭐ Featured Project</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag tag-iot">IoT</span>
+                        <span class="project-tag tag-embedded">Embedded</span>
+                        <span class="project-tag tag-ai">Face Recognition</span>
+                        <span class="project-tag tag-web">Full-Stack</span>
+                    </div>
+                    <h3 class="project-title">Smart Door Lock — Double Authentication</h3>
+                    <p class="project-description">
+                        Sistem pengamanan pintu cerdas dengan <strong>double authentication</strong> menggunakan 
+                        ESP32-CAM untuk face recognition dan ESP32 DevKit C V4 untuk autentikasi kedua 
+                        (Keypad/Fingerprint/RFID). Terintegrasi dengan web dashboard real-time melalui 
+                        Node.js API dan Firebase Realtime Database.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Face recognition sebagai autentikasi pertama</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Triple option autentikasi kedua (PIN, Fingerprint, RFID)</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Web dashboard real-time dengan SSE live update</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>REST API untuk manajemen device & akses</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-item">ESP32-CAM</span>
+                        <span class="tech-item">ESP32 DevKit</span>
+                        <span class="tech-item">Python</span>
+                        <span class="tech-item">OpenCV</span>
+                        <span class="tech-item">Node.js</span>
+                        <span class="tech-item">Firebase</span>
+                        <span class="tech-item">Express.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Web Dashboard -->
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="images/web_dashboard.png" alt="Real-time Monitoring Dashboard" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag tag-web">Web Development</span>
+                        <span class="project-tag tag-web">Full-Stack</span>
+                        <span class="project-tag tag-iot">Real-time</span>
+                    </div>
+                    <h3 class="project-title">Real-time Monitoring Dashboard</h3>
+                    <p class="project-description">
+                        Web dashboard untuk monitoring dan manajemen sistem Smart Door Lock secara real-time. 
+                        Menampilkan log akses, status perangkat, serta manajemen kartu RFID dan sidik jari 
+                        dengan desain glassmorphism yang modern.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Dark theme glassmorphism UI</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Real-time event streaming (SSE)</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>CRUD kartu RFID & fingerprint management</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-item">HTML/CSS</span>
+                        <span class="tech-item">JavaScript</span>
+                        <span class="tech-item">Node.js</span>
+                        <span class="tech-item">Express.js</span>
+                        <span class="tech-item">Firebase</span>
+                        <span class="tech-item">SSE</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: Face Recognition -->
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="images/face_recognition.png" alt="Face Recognition System" loading="lazy">
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span class="project-tag tag-ai">Computer Vision</span>
+                        <span class="project-tag tag-ai">Python</span>
+                        <span class="project-tag tag-ai">AI/ML</span>
+                    </div>
+                    <h3 class="project-title">Face Recognition System</h3>
+                    <p class="project-description">
+                        Sistem pengenalan wajah menggunakan Python dan OpenCV yang terintegrasi dengan 
+                        ESP32-CAM. Mampu mendeteksi dan mengenali wajah secara real-time dari 
+                        MJPEG stream kamera.
+                    </p>
+                    <div class="project-features">
+                        <div class="feature-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Real-time face detection & recognition</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Registrasi wajah baru secara otomatis</span>
+                        </div>
+                        <div class="feature-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                            <span>Integrasi ESP32-CAM via HTTP MJPEG</span>
+                        </div>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-item">Python</span>
+                        <span class="tech-item">OpenCV</span>
+                        <span class="tech-item">face_recognition</span>
+                        <span class="tech-item">dlib</span>
+                        <span class="tech-item">NumPy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== KONTAK SECTION ===== -->
+    <section class="section section-alt" id="kontak">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">04 — Kontak</span>
+                <h2 class="section-title">Mari Berkolaborasi</h2>
+                <p class="section-subtitle">Tertarik untuk bekerja sama atau punya pertanyaan? Jangan ragu untuk menghubungi saya.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h3 class="contact-info-title">Informasi Kontak</h3>
+                    <p class="contact-info-desc">
+                        Saya selalu terbuka untuk diskusi tentang peluang kerja, 
+                        proyek kolaborasi, atau sekadar bertukar pikiran mengenai teknologi.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:afif.indradzat@gmail.com" class="contact-link-item">
+                            <div class="contact-link-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-link-label">Email</span>
+                                <span class="contact-link-value">afifnurhakiki001@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/" target="_blank" rel="noopener" class="contact-link-item">
+                            <div class="contact-link-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-link-label">LinkedIn</span>
+                                <span class="contact-link-value">www.linkedin.com/in/afif-indradzat-nurhakiki-71631824a</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/" target="_blank" rel="noopener" class="contact-link-item">
+                            <div class="contact-link-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                            </div>
+                            <div>
+                                <span class="contact-link-label">GitHub</span>
+                                <span class="contact-link-value">github.com/afif-indradzat</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper reveal">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Masukkan nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subjek</label>
+                            <input type="text" id="subject" name="subject" class="form-input" placeholder="Perihal pesan Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Pesan</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            <span>Kirim via Gmail</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-logo">
+                        <span class="logo-bracket">&lt;</span>Afif<span class="logo-dot">.</span>dev<span class="logo-bracket">/&gt;</span>
+                    </a>
+                    <p class="footer-tagline">Computer Engineering Graduate<br>IoT • Web • Computer Vision</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#tentang">Tentang</a>
+                    <a href="#keahlian">Keahlian</a>
+                    <a href="#proyek">Proyek</a>
+                    <a href="#kontak">Kontak</a>
+                </div>
+                <div class="footer-social">
+                    <a href="mailto:afif.indradzat@gmail.com" class="social-link" aria-label="Email">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Afif Indradzat Nurhakiki. Built with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
